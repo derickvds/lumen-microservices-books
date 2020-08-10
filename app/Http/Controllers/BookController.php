@@ -2,8 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Traits\ApiResponser;
+
 class BookController extends Controller
 {
+    use ApiResponser;
+
     /**
      * Create a new controller instance.
      *
