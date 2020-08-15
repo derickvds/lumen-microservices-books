@@ -44,7 +44,7 @@ class BookController extends Controller
             'title' => 'required|max:255',
             'description' => 'required|max:255',
             'price' => 'required|min:1',
-            'book_id' => 'required|min:1',
+            'author_id' => 'required|min:1',
         ];
 
         $this->validate($request, $rules);
